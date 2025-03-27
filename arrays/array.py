@@ -10,6 +10,9 @@ class Array():
     So, I know that lists (or arrays) are iterable, can be indexed, added to, or removed from.
 
     Let's implement these.
+
+    NOTE: This is a very pythonic implementation. I am allowing for mixed types to retain the functionality that exists
+    in python lists. I will do a true array implementation in C++ as well.
     """
 
     def __init__(self, element=None, unpack=True):
